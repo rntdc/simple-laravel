@@ -9,7 +9,7 @@
             <section class="contact__options">
 
                 <form class="contact__form" action="{{route('site.contact.form')}}" method="post">
-
+                    @csrf
                     <div>
                     </div>
                     <label for="name">Nome completo</label>
